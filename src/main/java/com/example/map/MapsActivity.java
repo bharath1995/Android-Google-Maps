@@ -169,8 +169,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             //new lat and long
              polygon.add(new LatLng(latitude,longitude));
 
-            //global edge lat and long
-            // polygon.add(new LatLng(12.917588955680403,77.50054121017456));
+        
 
              mMap.addPolygon(new PolygonOptions()
                      .addAll(polygon)
